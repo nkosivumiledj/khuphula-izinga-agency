@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url("hero-image.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero .cta {
+  background: #ff6600;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+/* Services Section */
+#services {
+  padding: 2rem 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.service {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.service {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+/* Footer */
+footer {
+  background: #222;  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.service {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.service {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+/* Footer */
+footer {
+  background: #222;  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header Navigation */
+header {
+  background: #222;
+  color: white;
+  padding: 1em 0;
+}
+header .logo img {
+  height: 50px;
+}
+header .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+header .nav-links li {
+  margin: 0 15px;
+}
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero.jpg') no-repeat center center/cover;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+/* Classes Section */
+.classes {
+  padding: 20px;
+  background: #f9f9f9;
+}
+.classes .categories {
+  display: flex;
+  justify-content: space-around;
+}
+.category {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.category h3 {
+  color: #444;
+}
+
+/* Contact Section */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact form input, 
+.contact form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
